@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+}
+#content-header {
+    background: #2a8dd4;
+    color: #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80px; 
+    overflow: hidden;
+}
+
+#content-main {
+    background: #fff;
+    position: fixed;
+    top: 80px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow: auto; 
+}
+
+.padding {
+    padding: 15px;
+}
+
+.ms-ListGhostingExample-itemCell {
+    min-height: 54px;
+    padding: 10px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border-bottom: 1px solid #c8c8c8;
+}
+
+.ms-ListGhostingExample-itemCell:hover {
+    background: #EEE;
+}
+
+.ms-ListGhostingExample-itemName {
+    font-size: 18px;
+    font-weight: bold;
+    color: #f00;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.ms-ListGhostingExample-itemIndex {
+    font-size: 12px;
+    color: #a6a6a6;
+    margin-top: 10px;
+}
+
+.model-list-item {
+  padding: 10px;
+}
+.model-list-item:hover {
+  background-color: #EEE;
+}
+.model-list-item-tag {
+  background-color: rgba(64,158,255,.1);
+  display: inline-block;
+  height: 24px;
+  padding: 0 8px;
+  margin-left: 5px;
+  line-height: 22px;
+  font-size: 12px;
+  color: #409eff;
+  /*border-radius: 4px;*/
+  box-sizing: border-box;
+  border: 1px solid rgba(64,158,255,.2);
+  white-space: nowrap;
+
+}

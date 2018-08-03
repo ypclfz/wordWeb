@@ -1,0 +1,15 @@
+.message .ms-MessageBar-content-success {
+    background-color: rgb(230, 241, 167); 
+}
+.message .ms-MessageBar-content-warning {
+    background-color: rgb(255, 241, 204);
+}
+.message {
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    top: 0;
+    left: 0;
+}

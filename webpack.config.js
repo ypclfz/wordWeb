@@ -10,8 +10,8 @@ module.exports = {
     entry: {
         polyfill: 'babel-polyfill',
         app: './src/index.js',
-        login: './src/login.js',
-        'function-file': './function-file/function-file.js'
+        login: './src/login.js'
+        // 'function-file': './function-file/function-file.js'
     },
     resolve: {
         extensions: ['.js', '.jsx'],
